@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Real-Time-Programming
 
 Real-Time Programming in ROS 2
 ==============================

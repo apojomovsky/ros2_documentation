@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Run-2-nodes-in-a-single-docker-container
 
 Running 2 nodes in a single docker container [community-contributed]
 ====================================================================

@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Launch-system
 
 Launching/monitoring multiple nodes with Launch
 ===============================================

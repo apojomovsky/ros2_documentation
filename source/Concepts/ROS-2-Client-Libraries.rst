@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+   ROS-2-Client-Libraries
 
 About ROS2 client libraries
 ===========================

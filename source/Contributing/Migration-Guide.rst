@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Migration-Guide
 
 Migration guide from ROS 1
 ==========================

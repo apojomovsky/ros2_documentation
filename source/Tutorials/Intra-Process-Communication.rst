@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Intra-Process-Communication
 
 Efficient intra-process communication
 =====================================

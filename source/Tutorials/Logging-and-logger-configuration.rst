@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Logging-and-logger-configuration
 
 Logging and logger configuration demo
 =====================================

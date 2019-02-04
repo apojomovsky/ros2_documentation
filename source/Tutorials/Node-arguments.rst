@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Node-arguments
 
 Passing ROS arguments to nodes via the command-line
 ===================================================

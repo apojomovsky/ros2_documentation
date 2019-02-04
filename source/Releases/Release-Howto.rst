@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Release-Howto
 
 How to Release
 ==============

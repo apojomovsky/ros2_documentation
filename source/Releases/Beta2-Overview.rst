@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Beta2-Overview
 
 Beta 2 (codename 'r2b2'; July 2017)
 ===================================

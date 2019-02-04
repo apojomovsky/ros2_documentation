@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+   ROS-2-On-boarding-Guide
 
 ROS 2 On-boarding Guide
 =======================

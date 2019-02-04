@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    RQt-Source-Install-MacOS
 
 Building RQt from Source on macOS
 =================================

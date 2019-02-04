@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Fedora-Development-Setup
 
 Building ROS 2 on Fedora Linux
 ==============================

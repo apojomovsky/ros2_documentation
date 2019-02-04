@@ -17,7 +17,10 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
-# sys.path.insert(0, os.path.abspath('.'))
+import sys
+
+sys.path.append(os.path.abspath("./../../_sphinx/_ext"))
+from redirectfrom import RedirectFrom
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -65,11 +68,11 @@ exclude_patterns = []
 pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = False
+todo_include_todos = True
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-extensions = ['sphinx.ext.intersphinx']
+extensions = ['sphinx.ext.intersphinx', 'helloworld', 'redirectfrom']
 
 # Intersphinx mapping
 
@@ -100,12 +103,11 @@ html_theme = 'alabaster'
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'ros2_docsdoc'
 
-
 redirect_snippet = """\
-    <link rel="canonical" href="/doc/{repo}/{dst}" />
-    <meta http-equiv="refresh" content="0; url=/doc/{repo}/{dst}" />
+    <link rel="canonical" href="../{dst}" />
+    <meta http-equiv="refresh" content="0; url=../{dst}" />
     <script>
-        window.location.href = '/doc/{repo}/{dst}';
+        window.location.href = '../{dst}';
     </script>
 """
 
@@ -186,15 +188,17 @@ redirects = {
 
 def generate_redirects(app):
     page_redirects = []
-    template_name = ""
-    repo = os.path.split(os.path.dirname(os.path.realpath(__file__)))[1]
-    for src, dst in redirects.items():
+    template_name = "layout.html"
+    repo = os.path.basename(os.path.dirname(os.path.realpath(__file__)))
+    for src, dst in RedirectFrom.redirects.items():
+        #if app.builder.name == 'html'
+        #    dst += '.html'
         page_name = src
         context = {
             'title': src,
             'body': "",
             # This is being appended to the head of the page
-            'redirect': redirect_snippet.format(**locals()),
+            'metatags': redirect_snippet.format(**locals()),
         }
         page_redirects.append((page_name, context, template_name))
     return page_redirects

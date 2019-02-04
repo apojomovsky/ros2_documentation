@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Managed-Nodes
 
 Management of nodes with managed lifecycles
 ===========================================

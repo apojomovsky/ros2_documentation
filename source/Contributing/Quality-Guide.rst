@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Quality-Guide
 
 Quality Guide: Ensuring code quality
 ====================================

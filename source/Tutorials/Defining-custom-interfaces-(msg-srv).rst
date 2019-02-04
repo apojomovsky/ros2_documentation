@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Defining-custom-interfaces-(msg-srv)
 
 Defining custom interfaces (msg/srv)
 ====================================

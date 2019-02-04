@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Python-Programming
 
 Python Programming in ROS 2
 ===========================

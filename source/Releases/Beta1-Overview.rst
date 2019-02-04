@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Beta1-Overview
 
 Beta 1 (codename 'Asphalt'; December 2016)
 ==========================================

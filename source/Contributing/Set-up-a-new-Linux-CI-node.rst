@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Set-up-a-new-Linux-CI-node
 
 How to setup Linux Jenkins nodes
 ================================

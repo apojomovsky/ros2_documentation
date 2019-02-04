@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Windows-Development-Setup
 
 Building ROS 2 on Windows
 =========================

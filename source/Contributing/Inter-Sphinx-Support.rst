@@ -1,3 +1,7 @@
+.. redirectfrom::
+
+    Inter-Sphinx-Support
+
 Using Sphinx for cross-referencing packages
 ===========================================
 

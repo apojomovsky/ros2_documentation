@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    Logging
 
 Logging and logger configuration
 ================================

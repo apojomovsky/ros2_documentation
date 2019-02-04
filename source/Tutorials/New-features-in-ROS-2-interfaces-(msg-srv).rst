@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    New-features-in-ROS-2-interfaces-(msg-srv)
 
 New features in ROS 2 interfaces
 ================================

@@ -1,3 +1,6 @@
+.. redirectfrom::
+
+    dummy-robot-demo
 
 Trying the dummy robot demo
 ===========================
